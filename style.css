@@ -1,0 +1,260 @@
+*{
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.nav{
+    height:60px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+}
+.nav_logo{
+    height:50px;
+    width:100px;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    height:50px;
+    width:100%;
+    background-size: cover;
+}
+
+.border{
+    border:1.5px solid transparent;
+}
+
+.border:hover{
+    border:1.5px solid white;
+}
+
+/* box2 */
+
+.add-first{
+    color:#cccc;
+    font-size:0.85rem;
+    margin-left: 15px;
+}
+
+.add-sec{
+    font-size:1rem;
+    color:white;
+    margin-left: 5px;
+}
+
+.add-icon{
+    color:white;
+    display:flex;
+    align-items: center;
+}
+
+/* box3 */
+
+.search{
+    background-color: pink;
+    width:620px;
+    height: 40px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 4px;
+}
+.search:hover{
+    border:1.5px solid #febd68 ;
+}
+.search_icon{
+    color:#0f1111;
+    height: 40px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.search_select{
+    background-color: #f3f3f3;
+    width:40px;
+    height: 40px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+    text-align: center;
+}
+.search_input{
+    height: 36px;
+    width: 100%;
+    font-size: 1rem;
+    border:none;
+}
+
+/* box4 */
+
+.nav_drp{
+    color:white;
+}
+.nav_drp_txt{
+    font-size: 70%;
+    padding: 0px 0px 0px 3px;
+}
+.nav_drp_select{
+    color: white;
+    background-color: #0f1111;
+    border: none;
+    font-weight: 700;
+}
+/* box5 */
+.order{
+    height:32px;
+    width: 132.52px;
+    color:white;
+}
+.order_txt{
+    font-size: 70%;
+}
+.order_dark{
+    height: 16px;
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+/* box6 */
+.cart{
+    color:white;
+    display: flex;
+}
+.cart_img{
+    font-size: 30px;
+}
+.cart_txt{
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* panel */
+
+.panel{
+    color: white;
+    height: 45px;
+    background-color:#232f3e;
+    
+    
+}
+.menu_panel{
+    display: flex;
+    justify-content:space-between;
+    height: 45px;
+    align-items: center;
+    margin: 0px 30px;
+    
+}
+.menu_club{
+    display: flex;
+    justify-content: space-between;
+    width:500px;
+    
+}
+.menu_options{
+    display: flex;
+    width:450px;
+    justify-content: space-evenly;
+}
+/* hero */
+
+.hero {
+    background-image: url('hero_image.jpg');
+    background-size: cover;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    position: relative; /* Needed for positioning */
+    z-index: 1; /* Make sure .hero is behind .boxes */
+    background-image: linear-gradient(to bottom, transparent, white), url('hero_image.jpg');
+  }
+.hero_message{
+    width: 90%;
+    height:40px;
+    background-color: rgb(245, 246, 246);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    text-decoration: none;
+}
+
+/* boxes */
+
+.boxes {
+    width: 100%;
+    height: 200px;
+    margin-top: 3000px;
+    position: absolute; /* Overlapping content is positioned absolutely */
+    bottom: 0; /* Positioned at the bottom of .hero */
+    z-index: 2; /* Make .boxes appear above .hero */
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    background: linear-gradient(to bottom, transparent, #e2e7e6);
+  }
+.box{
+    
+    height:385px;
+    width: 350px;
+    background-color: white;
+   
+}
+.box_head{
+    font-size: larger;
+    font-weight: 600;
+}
+.box_img{
+    display:flex;
+    justify-content: center;
+}
+img{
+    height:340px;
+    width:300px;
+    padding-bottom:20px;
+}
+
+/* footer */
+
+.back_top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height:49px;
+    width:100%;
+    background-color: #37475A;
+}
+.footer{
+    color:white;
+    height:200px;
+    width:100%;
+    background-color: #232F3E;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.end_logo{
+    background-color: #232F3E;
+    font-size: 5px;
+    display: flex;
+    justify-content: center;
+}
+.img{
+    height: 50px;
+    width: 76px;
+}
+.bold{
+    font-weight: 700;
+}
+.noBold{
+    font:xx-small;
+}
